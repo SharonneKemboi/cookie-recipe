@@ -1,0 +1,27 @@
+
+
+html{
+    background-color: rgb(223, 241, 241);
+}
+
+body{
+    padding: 10px;
+    margin: 10px;
+}
+h1{
+    color: blueviolet;
+    font-style: oblique;
+    font-size: 2em;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.0em;
+    justify-content: space-around;
+    display: inline-block;
+}
+h2, h3{
+    font-size: 2em;
+}
+li{
+    font-family:'Courier New', Courier, monospace ;
+}
