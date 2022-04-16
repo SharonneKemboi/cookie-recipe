@@ -1,0 +1,35 @@
+.navbar{
+    background-color: black;
+}
+
+#navbarNavAltMarkup a{
+    color: aqua;
+   
+    display: flex;
+    padding-left: 20px;
+    font-size: 1.7rem;
+    justify-content: space-around;
+
+}
+
+.img1{
+    height: 1%;
+    width: 6%;
+   
+    margin: 1%;
+}
+#navbarNavAltMarkup {
+  width: 100%;
+  margin-left: 30%;
+    
+    display: flex;
+   
+
+}
+.navbar-brand{
+    color: aqua;
+    margin: 0.5%;
+    text-align: center;
+    margin-left: 2%;
+    font-size: 2rem;
+}

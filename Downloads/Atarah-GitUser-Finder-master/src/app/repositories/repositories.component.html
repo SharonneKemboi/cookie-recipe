@@ -1,0 +1,27 @@
+
+    <div class="row">
+        <h3 class="mt-5">Github repositories</h3>
+        <div class="col-md-6 mt-5"*ngFor="let repo of repos">
+            <div class="card" style=" height: 15rem;">
+                <div class="card-header">
+                    <h4><a href="{{repo.html_url}}">{{repo.name}}</a></h4>
+                </div> 
+                <div class="card-body">
+                    <p class="card-text text-light">{{repo.description}} </p>
+                </div>
+                <div class="card-footer text-muted">
+                    <div class="row">
+                        <div class="col-md-6 text-light">
+                            <small>Language: {{repo.language}}</small> 
+                        </div>
+                        <div class="col-md-6 text-light">
+                            <small>Coded: {{repo.created_at| dateCount}}</small> 
+                        </div>
+                    </div>
+                  
+                </div>  
+            </div>
+        </div>
+        
+    </div>
+

@@ -1,0 +1,50 @@
+<div class="container-fluid">
+    <app-search-input (searchResult) = "searchUser($event)" ></app-search-input>
+
+    <div class="row">
+        <div class="col-md-5 ">
+            <div class="row mt-5" id="image">
+                <img src="{{user.avatar_url}}" class="rounded-circle img-fluid" alt="">
+            </div>
+            <div class="row" id="username">
+                <h2>{{user.name}}</h2>
+            </div>
+            <div class="row">
+                <div class="col" id="following">
+                    <p>Following: {{user.following}}</p>
+                </div>
+                <div class="col" id="followers">
+                    <p>Followers: {{user.followers}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <h3 class="mt-5">Github repositories</h3>
+            <div class="row">
+                
+                <div class="col-md-4 mt-5"*ngFor="let repo of repos">
+                    <div class="card" style=" height: 18rem;">
+                        <div class="card-header">
+                            <h4><a href="{{repo.html_url}}">{{repo.name}}</a></h4>
+                        </div> 
+                        <div class="card-body">
+                            <p class="card-text text-light">{{repo.description}} </p>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <div class="row">
+                                <div class="col-md-5 text-light">
+                                    <small>Language: {{repo.language}}</small> 
+                                </div>
+                                <div class="col-md-5 text-light">
+                                    <small>Coded: {{repo.created_at| dateCount}}</small> 
+                                </div>
+                            </div>
+                          
+                        </div>  
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+#navy{
+    height: 10vh;
+    
+}
+
+input::placeholder{
+    color: black;
+    
+}
+
+.container{
+    background-color: rgb(53, 6, 70);
+}
+.searchBar{
+  
+ padding-left: 20%;
+}
+
+input{
+    padding: 20px;
+    width: 40%;
+    height: 30%;
+}

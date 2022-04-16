@@ -1,0 +1,33 @@
+.card{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    box-shadow: 0 15px 25px rgba(30, 30, 30, 0.2);
+    height: 100%;
+    border-radius: 5px;
+    backdrop-filter: blur(14px);
+    background-color: rgba(10, 240, 236, 0.2);
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+
+h3{
+    color: aqua;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+h4 a{
+    color: aqua;
+    font-size: 2rem;
+    text-decoration: none;
+
+    
+}
+
